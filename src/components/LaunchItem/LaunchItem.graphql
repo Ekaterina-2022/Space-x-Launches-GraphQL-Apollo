@@ -1,0 +1,8 @@
+fragment LaunchItem on Launch {
+	mission_name
+	launch_date_utc
+	launch_year
+	links {
+		flickr_images
+	}
+}

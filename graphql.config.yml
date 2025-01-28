@@ -1,0 +1,17 @@
+{
+    schemaPath: "schema.graphql",
+    documents: "**/*.{graphql,js,ts,jsx,tsx}",
+    name: "Untitled GraphQL Schema",
+    extensions:
+        {
+            endpoints:
+                {
+                    "Default GraphQL Endpoint":
+                        {
+                            url: "https://spacex-production.up.railway.app/",
+                            headers: { "user-agent": "JS GraphQL" },
+                            introspect: false,
+                        },
+                },
+        },
+}
