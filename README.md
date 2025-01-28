@@ -1,9 +1,11 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 -   **Next.js 15** with TypeScript
--   **GraphQL**
+-   **GraphQL** schemas
 -   **Apollo Client** to query data
 -   Awesome [SpaceX API](https://spacex-production.up.railway.app/) for data example
+
+![Screen](./public/img.png)
 
 ## Getting Started
 
@@ -25,6 +27,6 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 3. **Open the source code and start editing!**
 
-    Your site is now running at `http://localhost:3000`.
+    Your site is now running at `http://localhost:3000/space-x-launches-app`.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.

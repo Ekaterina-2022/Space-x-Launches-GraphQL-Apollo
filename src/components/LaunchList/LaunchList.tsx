@@ -2,7 +2,8 @@ import { useGetPastLaunchesQuery } from "@/gql/generated";
 import { LaunchItem } from "@/components/LaunchItem/LaunchItem";
 import styles from "@/components/LaunchList/launchList.module.scss";
 
-export async function generateStaticParams() {
+{
+	/*export async function generateStaticParams() {
 	const { data } = useGetPastLaunchesQuery({
 		variables: {
 			limit: 48,
@@ -16,6 +17,7 @@ export async function generateStaticParams() {
 				index >= 40 && <LaunchItem launch={launch} key={index} />
 		)
 		.reverse();
+}*/
 }
 
 export const LaunchList = () => {

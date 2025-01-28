@@ -1,6 +1,6 @@
 "use client";
 
-import { ApolloProvider, gql } from "@apollo/client";
+import { ApolloProvider } from "@apollo/client";
 import { connectApolloClientToVSCodeDevTools } from "@apollo/client-devtools-vscode";
 import client from "./apolloConfig";
 import styles from "@/app/app.module.scss";
