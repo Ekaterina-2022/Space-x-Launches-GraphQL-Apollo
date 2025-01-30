@@ -9,7 +9,7 @@ const nextConfig: NextConfig = {
 				protocol: "https",
 				hostname: "spacex-production.up.railway.app",
 				port: "",
-				pathname: "",
+				pathname: "/",
 			},
 			{
 				protocol: "http",
