@@ -14,8 +14,9 @@ const Roadster = () => {
 	const loading = isLoading(networkStatus);
 
 	useEffect(() => {
-		autoUpdate ? startPolling(10000) : stopPolling();
+		return autoUpdate ? startPolling(10000) : stopPolling();
 	}, [autoUpdate, startPolling, stopPolling]);
+
 	return (
 		<section className={styles.roadster}>
 			<h2>Roadster info</h2>

@@ -9,7 +9,7 @@ import logo from "../../public/logo.svg";
 import { LaunchList } from "@/components/LaunchList/LaunchList";
 import Roadster from "@/components/Roadster/Roadster";
 
-const devtoolsRegistration = connectApolloClientToVSCodeDevTools(
+export const devtoolsRegistration = connectApolloClientToVSCodeDevTools(
 	client,
 	"ws://localhost:7095"
 );
