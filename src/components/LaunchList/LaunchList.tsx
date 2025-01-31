@@ -2,24 +2,6 @@ import { useGetPastLaunchesQuery } from "@/gql/generated";
 import { LaunchItem } from "@/components/LaunchItem/LaunchItem";
 import styles from "@/components/LaunchList/launchList.module.scss";
 
-{
-	/*export async function generateStaticParams() {
-	const { data } = useGetPastLaunchesQuery({
-		variables: {
-			limit: 48,
-		},
-	});
-
-	return data?.launchesPast
-		?.map(
-			(launch, index) =>
-				launch &&
-				index >= 40 && <LaunchItem launch={launch} key={index} />
-		)
-		.reverse();
-}*/
-}
-
 export const LaunchList = () => {
 	const { data, loading, error } = useGetPastLaunchesQuery({
 		variables: {

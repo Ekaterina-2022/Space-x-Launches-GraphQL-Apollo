@@ -1,5 +1,6 @@
 import styles from "@/components/LaunchItem/launchItem.module.scss";
-import { LaunchItemFragment } from "@/gql/generated";
+import { LaunchItemFragment, useGetPastLaunchesQuery } from "@/gql/generated";
+
 import Image from "next/image";
 import logo from "../../../public/logo.svg";
 
